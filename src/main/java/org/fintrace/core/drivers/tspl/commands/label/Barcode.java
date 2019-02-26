@@ -564,7 +564,7 @@ public class Barcode implements TSPLCommand {
                 .append(codeType.getCodeType()).append(ESCAPED_DOUBLE_QUOTE).append(COMMA)
                 .append(height).append(COMMA)
                 .append(hrcAlignment.getAlignment()).append(COMMA)
-                .append(rotation).append(COMMA)
+                .append(rotation.getRotation()).append(COMMA)
                 .append(narrow).append(COMMA)
                 .append(wide).append(COMMA);
 
